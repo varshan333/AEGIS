@@ -1,4 +1,4 @@
-# 🛡️ AEGIS: AI-Powered Behavioral Anomaly Detection & Threat Intelligence Platform
+# AEGIS: AI-Powered Behavioral Anomaly Detection & Threat Intelligence Platform
 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Streamlit UI](https://img.shields.io/badge/Streamlit-1.30%2B-FF4B4B.svg)](https://streamlit.io/)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Executive Summary & Problem Statement
+##  Executive Summary & Problem Statement
 
 Modern enterprise Security Operations Centers (SOCs) are overwhelmed by millions of daily access events. Traditional rule-based SIEM systems trigger excessive false alarms (alert fatigue) while missing stealthy threats such as credential stuffing, impossible travel, lateral movement, and gradual insider drift.
 
