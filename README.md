@@ -146,27 +146,6 @@ To adapt as employee roles change over time:
 
 ---
 
-##  Streamlit SOC Analyst Dashboard Screenshots
-
-AEGIS includes a 5-page dark glassmorphism Streamlit UI:
-
-### 1. Operations Overview
-![Overview Screenshot](screenshots/overview.png)
-
-### 2. Incident Alert Queue
-![Alert Queue Screenshot](screenshots/alert_queue.png)
-
-### 3. Incident Investigation & SHAP Details
-![Alert Details Screenshot](screenshots/alert_details.png)
-
-### 4. Entity Investigation & Timeline
-![Entity Investigation Screenshot](screenshots/entity_investigation.png)
-
-### 5. Model Analytics & Confusion Matrix
-![Model Analytics Screenshot](screenshots/model_analytics.png)
-
----
-
 ## Installation & Usage Guide
 
 ### Prerequisites
