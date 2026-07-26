@@ -19,7 +19,7 @@ Modern enterprise Security Operations Centers (SOCs) are overwhelmed by millions
 
 ---
 
-## 🎯 Supported Threat Vectors
+##  Supported Threat Vectors
 
 AEGIS detects and classifies 7 sophisticated attack patterns:
 
@@ -33,7 +33,7 @@ AEGIS detects and classifies 7 sophisticated attack patterns:
 
 ---
 
-## 📊 Key Performance Metrics
+##  Key Performance Metrics
 
 Evaluated across **49,975 synthetic access events** and **1,300 modeled enterprise entities**:
 
@@ -48,7 +48,7 @@ Evaluated across **49,975 synthetic access events** and **1,300 modeled enterpri
 
 ---
 
-## 🏗️ Solution Architecture & Data Pipeline
+##  Solution Architecture & Data Pipeline
 
 ```
                                ┌─────────────────────────┐
@@ -103,7 +103,7 @@ Evaluated across **49,975 synthetic access events** and **1,300 modeled enterpri
 
 ---
 
-## 🧮 Risk Scoring & Explainable AI (SHAP)
+## Risk Scoring & Explainable AI (SHAP)
 
 ### Multi-Factor Risk Score Formula (0–100)
 
@@ -132,7 +132,7 @@ Contributing Factors:
 
 ---
 
-## 💡 Cold Start & Concept Drift Strategies
+## Cold Start & Concept Drift Strategies
 
 ### 1. Cold-Start Strategy
 When a new user, service account, or device is onboarded with `< 3` historical logs:
@@ -146,7 +146,7 @@ To adapt as employee roles change over time:
 
 ---
 
-## 🖼️ Streamlit SOC Analyst Dashboard Screenshots
+##  Streamlit SOC Analyst Dashboard Screenshots
 
 AEGIS includes a 5-page dark glassmorphism Streamlit UI:
 
@@ -167,7 +167,7 @@ AEGIS includes a 5-page dark glassmorphism Streamlit UI:
 
 ---
 
-## 🚀 Installation & Usage Guide
+## Installation & Usage Guide
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -205,7 +205,7 @@ Open your browser at `http://localhost:8501`.
 
 ---
 
-## 🏢 Business Impact & Future Roadmap
+##  Business Impact & Future Roadmap
 
 - **80% Reduction in Triage Time**: Automated point breakdowns enable fast root-cause analysis for Tier-1 SOC analysts.
 - **High Alert Fidelity**: 90.2% Top 1% Alert Precision ensures security teams focus on genuine incidents.
@@ -216,6 +216,6 @@ Open your browser at `http://localhost:8501`.
 
 ---
 
-## 📜 License
+##  License
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
