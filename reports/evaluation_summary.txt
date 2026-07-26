@@ -1,0 +1,24 @@
+=====================================================
+ CYBERSECURITY BEHAVIORAL ANOMALY DETECTION REPORT  
+=====================================================
+
+Total Logs Evaluated : 49975
+Normal Events        : 49071
+Attacks Injected     : 904
+
+--- ANOMALY DETECTION METRICS (ISOLATION FOREST) ---
+Accuracy               : 97.97%
+Precision              : 45.60%
+Recall                 : 63.05%
+F1-Score               : 52.92%
+ROC-AUC Score          : 0.9667
+False Positive Rate    : 1.39%
+Top 1% Alert Precision : 90.18%
+
+--- CONFUSION MATRIX ---
+True Negatives  (Normal -> Normal)  : 48391
+False Positives (Normal -> Anomaly) : 680
+False Negatives (Attack -> Normal)  : 334
+True Positives  (Attack -> Anomaly) : 570
+
+=====================================================

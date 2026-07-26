@@ -1,0 +1,156 @@
+{
+  "dataset_summary": {
+    "total_logs": 49975,
+    "normal_logs": 49071,
+    "attack_logs": 904,
+    "detected_anomalies": 1250
+  },
+  "anomaly_detection_metrics": {
+    "accuracy": 0.9797098549274638,
+    "precision": 0.456,
+    "recall": 0.6305309734513275,
+    "f1_score": 0.5292479108635098,
+    "roc_auc": 0.9666794438904942,
+    "false_positive_rate": 0.013857471826537059,
+    "top_1_percent_alert_precision": 0.9018036072144289,
+    "confusion_matrix": {
+      "true_negative": 48391,
+      "false_positive": 680,
+      "false_negative": 334,
+      "true_positive": 570
+    }
+  },
+  "attack_classification_metrics": {
+    "classes": [
+      "brute_force",
+      "credential_stuffing",
+      "device_spoofing",
+      "impossible_travel",
+      "insider_drift",
+      "lateral_movement",
+      "low_and_slow_exfiltration"
+    ],
+    "confusion_matrix": [
+      [
+        140,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        125,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        142,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        71,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        142,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142
+      ]
+    ],
+    "detailed_report": {
+      "brute_force": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 140.0
+      },
+      "credential_stuffing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 125.0
+      },
+      "device_spoofing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 142.0
+      },
+      "impossible_travel": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 71.0
+      },
+      "insider_drift": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 142.0
+      },
+      "lateral_movement": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 142.0
+      },
+      "low_and_slow_exfiltration": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 142.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 904.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 904.0
+      }
+    }
+  }
+}
